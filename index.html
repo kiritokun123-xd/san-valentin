@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mishell 💖</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<audio id="bgMusic" loop>
+    <source src="assets/musica.mp3" type="audio/mpeg">
+</audio>
+
+<button id="backBtn" class="back-button hidden">Atrás</button>
+
+<!-- PANTALLA 1 -->
+<section class="screen active" id="screen1">
+    <p class="subtitle">Mi niña...</p>
+    <h1 class="title">Mishell 🥹</h1>
+    <p class="subtitle">Toca la pantalla mi amor...</p>
+    <canvas id="heartsCanvas"></canvas>
+</section>
+
+<!-- PANTALLA 2 -->
+<section class="screen" id="screen2">
+    <div class="night">
+        <canvas id="starsCanvas"></canvas>
+        <div class="moon"></div>
+
+        <div class="question-box">
+            <h2>¿Quieres ser mi san Valentine?</h2>
+            <p class="subtitle">Intena a dale a "No" si puedes 😉</p>
+            <div class="buttons">
+                <button id="yesBtn">Si 💘</button>
+                <button id="noBtn">No 😢</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PANTALLA 3 -->
+<section class="screen" id="screen3">
+    <h2 class="message">¡Gracias por aceptar amor! 🥰</h2>
+    <p class="subtitle">Sabía que dirías que Sí! 🤭</p>
+    <p class="subtitle">Toca la pantalla mi amor...</p>
+    <canvas id="loveExplosion"></canvas>
+</section>
+
+<!-- PANTALLA 4 -->
+<section class="screen" id="screen4">
+    <div class="winter">
+        <canvas id="snowCanvas"></canvas>
+
+        <div class="carousel">
+            <img src="assets/img1.jpeg" class="carousel-img active">
+            <img src="assets/img2.jpeg" class="carousel-img">
+            <img src="assets/img3.jpeg" class="carousel-img">
+            <img src="assets/img4.jpeg" class="carousel-img">
+        </div>
+
+        <div class="letter">
+            <div class="letter-content">
+                Nos veremos este 14 mi amor ponte más linda que siempre, 
+                será un día maravilloso a tu lado, Te amo! ❤️
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
